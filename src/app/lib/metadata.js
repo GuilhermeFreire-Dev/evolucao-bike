@@ -33,5 +33,15 @@ export const Metadata = {
     name: "Evolução Bike",
     cnpj: "01.333.444/0001-55",
     email: "email@email.com.br"
-  }
+  },
+  openingHours: [
+    {
+      day: "segunda á sexta",
+      time: "8:00 ás 18:00"
+    },
+    {
+      day: "sábado",
+      time: "8:00 ás 12:00"
+    }
+  ]
 }

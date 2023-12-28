@@ -6,22 +6,26 @@ export const Metadata = {
     {
       icon: <LuPhone size={24}></LuPhone>,
       text: "(62) 3998-6812",
-      url: "#"
+      url: "tel:623998-6812",
+      target: ""
     },
     {
       icon: <IoLogoWhatsapp size={24}></IoLogoWhatsapp>,
       text: "(62) 9 8159-2593",
-      url: "https://api.whatsapp.com/send/?phone=5562981592593&text&type=phone_number&app_absent=0"
+      url: "https://api.whatsapp.com/send/?phone=5562981592593&text&type=phone_number&app_absent=0",
+      target: "_blank"
     },
     {
       icon: <IoLogoInstagram size={24}></IoLogoInstagram>,
       text: "@evolucaobike",
-      url: "https://www.instagram.com/evolucaobike?igshid=NmQ5Y2ExZGE1MQ%3D%3D"
+      url: "https://www.instagram.com/evolucaobike?igshid=NmQ5Y2ExZGE1MQ%3D%3D",
+      target: "_blank"
     },
     {
       icon: <IoLogoFacebook size={24}></IoLogoFacebook>,
       text: "Evolução Bike",
-      url: "https://www.facebook.com/EvolucaoBike"
+      url: "https://www.facebook.com/EvolucaoBike",
+      target: "_blank"
     },
   ],
   address: {

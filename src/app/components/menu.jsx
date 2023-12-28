@@ -16,7 +16,7 @@ export default function Menu({isEnabled, enable}) {
             {
               Metadata.contacts.map((contact) => {
                 return (
-                  <a href={contact.url} className="flex items-center my-8" target="_blank" key={contact.text}>
+                  <a href={contact.url} className="flex items-center my-8" target={contact.target} key={contact.text}>
                     <span>{ contact.icon }</span>
                     <Text className={"mx-2 font-semibold"} text={contact.text}></Text>
                   </a>

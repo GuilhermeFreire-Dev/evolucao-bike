@@ -26,7 +26,7 @@ export default function Footer() {
         {
           Metadata.contacts.map((contact) => {
             return (
-              <a href={contact.url} className="flex items-center my-2 sm:my-3 hover:bg-stone-600 rounded-full px-3 py-2 duration-200" target="_blank">
+              <a href={contact.url} className="flex items-center my-2 sm:my-3 hover:bg-stone-600 rounded-full px-3 py-2 duration-200" target="_blank" key={contact.text}>
                 <span>{ contact.icon }</span>
                 <Text className={"mx-2 font-semibold"} text={contact.text}></Text>
               </a>

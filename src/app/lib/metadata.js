@@ -4,24 +4,24 @@ import { LuPhone } from "react-icons/lu"
 export const Metadata = {
   contacts: [
     {
-      icon: <LuPhone></LuPhone>,
-      text: "telefone",
+      icon: <LuPhone size={24}></LuPhone>,
+      text: "(62) 3998-6812",
       url: "#"
     },
     {
-      icon: <IoLogoWhatsapp></IoLogoWhatsapp>,
-      text: "whatsapp",
-      url: "#"
+      icon: <IoLogoWhatsapp size={24}></IoLogoWhatsapp>,
+      text: "(62) 9 8159-2593",
+      url: "https://api.whatsapp.com/send/?phone=5562981592593&text&type=phone_number&app_absent=0"
     },
     {
-      icon: <IoLogoInstagram></IoLogoInstagram>,
-      text: "instagram",
-      url: "#"
+      icon: <IoLogoInstagram size={24}></IoLogoInstagram>,
+      text: "@evolucaobike",
+      url: "https://www.instagram.com/evolucaobike?igshid=NmQ5Y2ExZGE1MQ%3D%3D"
     },
     {
-      icon: <IoLogoFacebook></IoLogoFacebook>,
-      text: "facebook",
-      url: "#"
+      icon: <IoLogoFacebook size={24}></IoLogoFacebook>,
+      text: "Evolução Bike",
+      url: "https://www.facebook.com/EvolucaoBike"
     },
   ],
   address: {
@@ -31,8 +31,8 @@ export const Metadata = {
   },
   company: {
     name: "Evolução Bike",
-    cnpj: "01.333.444/0001-55",
-    email: "email@email.com.br"
+    cnpj: "17.780.044/0001-84",
+    email: "evolucaobike@hotmail.com"
   },
   openingHours: [
     {
@@ -42,6 +42,28 @@ export const Metadata = {
     {
       day: "sábado",
       time: "8:00 ás 12:00"
+    }
+  ],
+  services: [
+    {
+      description: "Venda de bicicletas novas e acessórios",
+      image: "/carrinho-de-compras.png",
+      alt: "carrinho de compras"
+    },
+    {
+      description: "Revisões e Reparos com equipe especializada",
+      image: "/definicoes.png",
+      alt: "ferramentas"
+    },
+    {
+      description: "Produtos com garantia e nota fiscal",
+      image: "/garantia.png",
+      alt: "selo de garantia"
+    },
+    {
+      description: "Revisão premium com peças originais",
+      image: "/coroa.png",
+      alt: "coroa"
     }
   ]
 }

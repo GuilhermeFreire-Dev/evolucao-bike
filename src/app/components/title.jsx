@@ -5,7 +5,7 @@ const bebasNeue = Bebas_Neue({ subsets: ['latin'], weight: '400' })
 export default function Title({title, rightLine}) {
   return (
     <div className="flex items-center mb-5">
-      <h1 className={`${bebasNeue.className} mr-5 text-4xl`}>{ title }</h1>
+      <h1 className={`${bebasNeue.className} whitespace-nowrap mr-5 text-4xl`}>{ title }</h1>
       {
         rightLine && (
           <hr className="border-stone-950 border-y-2 w-full" />

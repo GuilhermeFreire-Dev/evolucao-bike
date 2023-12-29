@@ -2,6 +2,7 @@ import './globals.css'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import Background from './components/background'
+import FloatButton from './components/float-button'
 
 export const metadata = {
   title: 'Evolução Bike',
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
           {children}
           <Footer></Footer>
         </main>
+        <FloatButton></FloatButton>
         <Background></Background>
       </body>
     </html>

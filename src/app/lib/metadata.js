@@ -5,6 +5,7 @@ export const Metadata = {
   contacts: [
     {
       icon: <LuPhone size={24}></LuPhone>,
+      name: "telefone",
       text: "(62) 3998-6812",
       url: "tel:623998-6812",
       target: ""
@@ -12,18 +13,21 @@ export const Metadata = {
     {
       icon: <IoLogoWhatsapp size={24}></IoLogoWhatsapp>,
       text: "(62) 9 8159-2593",
+      name: "whatsapp",
       url: "https://api.whatsapp.com/send/?phone=5562981592593&text&type=phone_number&app_absent=0",
       target: "_blank"
     },
     {
       icon: <IoLogoInstagram size={24}></IoLogoInstagram>,
       text: "@evolucaobike",
+      name: "instagram",
       url: "https://www.instagram.com/evolucaobike?igshid=NmQ5Y2ExZGE1MQ%3D%3D",
       target: "_blank"
     },
     {
       icon: <IoLogoFacebook size={24}></IoLogoFacebook>,
       text: "Evolução Bike",
+      name: "facebook",
       url: "https://www.facebook.com/EvolucaoBike",
       target: "_blank"
     },
@@ -40,7 +44,7 @@ export const Metadata = {
   },
   openingHours: [
     {
-      day: "segunda á sexta",
+      day: "segunda a sexta",
       time: "8:00 ás 18:00"
     },
     {

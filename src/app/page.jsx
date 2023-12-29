@@ -4,6 +4,7 @@ import Title from './components/title'
 import { Metadata } from './lib/metadata'
 import Text from './components/text'
 import Carousel from './components/carousel'
+import Maps from './components/maps'
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
         </div>
       }></Content>
       <Content content={
-        <div className="sm:flex sm:justify-between">
+        <div className="mb-5 sm:flex sm:justify-between">
           <div className="mb-5 sm:mb-0">
             <div className="mb-5">
               <Title title={"endereço"}></Title>
@@ -64,9 +65,8 @@ export default function Home() {
               }
             </div>
           </div>
-          <div>
-            {/* Google Maps API here */}
-            <Image src={"/maps.svg"} alt='mapa' width={400} height={400}></Image>
+          <div className="sm:w-1/2">
+            <Maps></Maps>
           </div>
         </div>
       }></Content>

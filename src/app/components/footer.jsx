@@ -17,11 +17,11 @@ export default function Footer() {
       </div>
       <div className="flex flex-col justify-center items-center my-10 sm:flex sm:flex-row">
         <LuMapPin size={48}></LuMapPin>
-        <div className="mx-5 text-center sm:text-left">
+        <a href={Metadata.maps.link} target="_blank" className="mx-5 text-center sm:text-left">
           <Text text={ Metadata.address.address }></Text>
           <Text text={ Metadata.address.city }></Text>
           <Text text={ Metadata.address.postal_code }></Text>
-        </div>
+        </a>
       </div>
       <div className="flex flex-col items-center sm:block">
         {

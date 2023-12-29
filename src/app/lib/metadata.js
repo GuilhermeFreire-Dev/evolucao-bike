@@ -69,5 +69,51 @@ export const Metadata = {
       image: "/coroa.png",
       alt: "coroa"
     }
-  ]
+  ],
+  galleryImages: [
+    {
+      url: "/IMG-1.jpg",
+      alt: "bike-1"
+    },
+    {
+      url: "/IMG-2.jpg",
+      alt: "bike-2"
+    },
+    {
+      url: "/IMG-3.jpg",
+      alt: "bike-3"
+    },
+    {
+      url: "/IMG-4.jpg",
+      alt: "bike-4"
+    },
+    {
+      url: "/IMG-5.jpg",
+      alt: "bike-5"
+    },
+    {
+      url: "/IMG-6.jpg",
+      alt: "bike-6"
+    },
+    {
+      url: "/IMG-7.jpg",
+      alt: "bike-7"
+    },
+    {
+      url: "/IMG-8.jpg",
+      alt: "bike-8"
+    },
+    {
+      url: "/IMG-9.jpg",
+      alt: "bike-9"
+    },
+    {
+      url: "/IMG-10.jpg",
+      alt: "bike-10"
+    },
+  ],
+  maps: {
+    link: "https://maps.app.goo.gl/1cs7y2vqy7kYaVjK8",
+    embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.9135779453054!2d-49.3247435759948!3d-16.73101953900724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef7aa7e4a0791%3A0x9501fff08917cbe3!2zRXZvbHXDp8OjbyBCaWtl!5e0!3m2!1spt-BR!2sbr!4v1703862467270!5m2!1spt-BR!2sbr"
+  }
 }

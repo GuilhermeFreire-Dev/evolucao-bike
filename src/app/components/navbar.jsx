@@ -12,7 +12,7 @@ export default function Navbar() {
   const [menuEnabled, setMenuEnabled] = useState(false)
 
   return (
-    <header className="bg-stone-950 text-zinc-50 flex items-center fixed top-0 w-full px-3 py-6 shadow-lg sm:justify-between sm:py-9 sm:px-10">
+    <header className="bg-stone-950 text-zinc-50 flex items-center fixed top-0 z-20 w-full px-3 py-6 shadow-lg sm:justify-between sm:py-9 sm:px-10">
       <LuMenu size={24} className="ml-2 mr-5 sm:hidden" onClick={() => {setMenuEnabled(true)}}></LuMenu>
       <Image src={"/logo.svg"} width={0} height={0} className="w-32 sm:w-48" alt="logotipo"></Image>
       <div className="hidden sm:flex">

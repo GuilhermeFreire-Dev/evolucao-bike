@@ -5,7 +5,7 @@ import Text from './text'
 
 export default function Menu({isEnabled, enable}) {
   return (
-    <div className="fixed top-0 left-0 z-10 h-screen overflow-hidden bg-stone-950 transition-all" style={isEnabled ? {width: '80%'} : {width: 0}}>
+    <div className="fixed top-0 left-0 z-30 h-screen overflow-hidden bg-stone-950 transition-all" style={isEnabled ? {width: '80%'} : {width: 0}}>
       {
         isEnabled && (
           <div className="py-8 px-5">

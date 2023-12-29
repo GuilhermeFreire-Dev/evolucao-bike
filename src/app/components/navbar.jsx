@@ -19,7 +19,7 @@ export default function Navbar() {
         {
           Metadata.contacts.map((contact) => {
             return (
-              <a href={contact.url} className="flex items-center mx-3 hover:bg-stone-600 rounded-full px-3 py-2 duration-200" target={contact.target} key={contact.text}>
+              <a href={contact.url} className="flex items-center mx-3 hover:bg-stone-600 rounded-full px-3 py-2 duration-200" target={contact.target} key={contact.name}>
                 <span>{ contact.icon }</span>
                 <Text className={"mx-2 font-semibold"} text={contact.text}></Text>
               </a>

@@ -5,16 +5,15 @@ import { Metadata } from './lib/metadata'
 import Text from './components/text'
 import Carousel from './components/carousel'
 import Maps from './components/maps'
+import { Bebas_Neue } from 'next/font/google'
+
+const bebasNeue = Bebas_Neue({ subsets: ['latin'], weight: '400' })
 
 export default function Home() {
   return (
     <div>
       <div className="w-full overflow-hidden flex items-end pb-10 px-10 h-[64vh] bg-gradient-to-r from-black to-transparent bg-opacity-75 sm:h-[38vw] sm:pb-20 sm:px-20">
-        <Title 
-          title={"Redefina seu percurso, viva a liberdade sobre duas rodas na Evolução Bike."} 
-          rightLine={false} 
-          className={"text-white whitespace-pre-wrap sm:w-1/3 sm:text-6xl"}>
-        </Title>
+        <h1 className={`${bebasNeue.className} whitespace-pre-wrap text-white text-4xl sm:w-1/3 sm:text-6xl`}>Redefina seu percurso, viva a liberdade sobre duas rodas na Evolução Bike.</h1>
       </div>
       <div className="bg-zinc-50">
         <Content content={

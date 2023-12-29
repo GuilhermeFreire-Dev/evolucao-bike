@@ -69,5 +69,47 @@ export const Metadata = {
       image: "/coroa.png",
       alt: "coroa"
     }
+  ],
+  galleryImages: [
+    {
+      url: "/IMG-1.jpg",
+      alt: "bike-1"
+    },
+    {
+      url: "/IMG-2.jpg",
+      alt: "bike-2"
+    },
+    {
+      url: "/IMG-3.jpg",
+      alt: "bike-3"
+    },
+    {
+      url: "/IMG-4.jpg",
+      alt: "bike-4"
+    },
+    {
+      url: "/IMG-5.jpg",
+      alt: "bike-5"
+    },
+    {
+      url: "/IMG-6.jpg",
+      alt: "bike-6"
+    },
+    {
+      url: "/IMG-7.jpg",
+      alt: "bike-7"
+    },
+    {
+      url: "/IMG-8.jpg",
+      alt: "bike-8"
+    },
+    {
+      url: "/IMG-9.jpg",
+      alt: "bike-9"
+    },
+    {
+      url: "/IMG-10.jpg",
+      alt: "bike-10"
+    },
   ]
 }

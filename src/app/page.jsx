@@ -3,6 +3,7 @@ import Content from './components/content'
 import Title from './components/title'
 import { Metadata } from './lib/metadata'
 import Text from './components/text'
+import Carousel from './components/carousel'
 
 export default function Home() {
   return (
@@ -18,7 +19,10 @@ export default function Home() {
         </div>
       }></Content>
       <Content content={
-        <Title title={"fotos"} rightLine={true}></Title>
+        <div>
+          <Title title={"fotos"} rightLine={true}></Title>
+          <Carousel images={Metadata.galleryImages}></Carousel>
+        </div>
       }></Content>
       <Content content={
         <div>

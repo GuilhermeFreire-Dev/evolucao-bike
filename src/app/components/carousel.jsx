@@ -22,6 +22,7 @@ export default function Carousel({images}) {
       slidesToScroll={1} 
       indicators={false}
       autoplay={true}
+      transitionDuration={100}
       responsive={responsiveSettings}
       prevArrow={<LuChevronLeft size={32} className="bg-stone-200 text-stone-950 bg-opacity-70 rounded-full"></LuChevronLeft>} 
       nextArrow={<LuChevronRight size={32} className="bg-stone-200 text-stone-950 bg-opacity-70 rounded-full"></LuChevronRight>}>

@@ -12,7 +12,7 @@ const bebasNeue = Bebas_Neue({ subsets: ['latin'], weight: '400' })
 export default function Home() {
   return (
     <div>
-      <div className="w-full overflow-hidden flex items-end pb-10 px-10 h-[64vh] bg-gradient-to-r from-black to-transparent bg-opacity-75 sm:h-[38vw] sm:pb-20 sm:px-20">
+      <div className="w-full overflow-hidden flex items-end pb-10 px-10 h-[64vh] bg-gradient-to-r from-[#00000098] sm:from-black via-[#00000068] sm:via-[#00000090] to-transparent sm:h-[38vw] sm:pb-20 sm:px-20">
         <h1 className={`${bebasNeue.className} whitespace-pre-wrap text-white text-4xl sm:w-1/3 sm:text-6xl`}>Redefina seu percurso, viva a liberdade sobre duas rodas na Evolução Bike.</h1>
       </div>
       <div className="bg-zinc-50">

@@ -5,7 +5,7 @@ import Text from "./text"
 
 export default function Footer() {
   return (
-    <footer className="bg-stone-950 text-zinc-50 bottom-0 w-full px-10 pt-10 pb-20 sm:flex sm:justify-between sm:px-24">
+    <footer className="bg-stone-950 text-zinc-50 bottom-0 w-full px-10 pt-10 pb-32 sm:pb-20 sm:flex sm:justify-between sm:px-24">
       <div className="flex flex-col justify-center items-center sm:items-start">
         <Image src={"/logo-white.svg"} width={0} height={0} alt="logotipo" className="w-60"></Image>
         <div className="mt-3">
